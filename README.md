@@ -1,8 +1,5 @@
 # Game of Life
 
-> !!!
-> to use es imports you need to run app on localhost via http-server, live-server or any other tool
-
 ## Controls
 
 * `randomize` - generate live cell automatically
