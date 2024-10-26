@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Game of Life</title>
+    <link rel="stylesheet" href="css/game.css" />
+  </head>
+
+  <body>
+    <div id="root">
+      <div class="controls">
+        <button id="play-button">Play</button>
+        <button id="reset-button" title="Reset grid">Reset</button>
+        <button id="randomize-button" title="Generate playground">Generate</button>
+        <input
+          id="speed-slider"
+          type="range"
+          min="0"
+          max="900"
+          step="100"
+          value="0"
+        />
+        <input id="size-input" type="number" min="8" placeholder="Grid size: 8 - 1000" title="Grid size">
+        <button id="size-button" title="Apply new grid size">Apply new grid size</button>
+      </div>
+      <canvas id="canvas" class="grid"></canvas>      
+    </div>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    background-color: #ada9a9b2;
+    color: #f80303;
+}
+
+.grid {
+    margin: 2rem auto;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+canvas.grid {
+    display: block;
+    background: #f5f5f5;
+    border-radius: 8px;
+    border: 1px solid #bebebe;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
