@@ -1,5 +1,6 @@
-import { Cell } from './cell.js'
-export class Grid {
+'use strict'
+//@ts-check
+class Grid {
   #cellHeight
   #cellWidth
   #ctx

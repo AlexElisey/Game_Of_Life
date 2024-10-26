@@ -1,6 +1,5 @@
+'use strict'
 //@ts-check
-import { Grid } from './grid.js'
-
 new (class GameOfLife {
   #controls
   #grid

@@ -1,6 +1,6 @@
-// сохранить координаты
+'use strict'
 //@ts-check
-export class Cell {
+class Cell {
   #cellParams
   #ctx
   #isAlive
